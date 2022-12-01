@@ -1,0 +1,253 @@
+
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+h1, h2, h3, h4, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+.feature-box p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #077afd;
+  color: #fff;
+}
+.card-colored-section {
+  background-color: #094991;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #077afd;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  border-radius: 5%;
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5% 7% 5% 7%;
+}
+
+.icon {
+  color: #156fac;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #077afd;
+}
+
+.word-wrap{
+  overflow-wrap: break-word;
+}
+
+.card1 {
+  margin: 5% 50% 5% 30%;
+}
+
+#press {
+  background-color: #4d9efa;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+#footer{
+  background-color: #05376f;
+  color: aliceblue;
+}
+
+#footer p {
+  color: aliceblue;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin-top: 1rem;
+  }
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.submit-button{
+  background-color: #e1eaf0;
+  border-color: #81b8dd;
+  color: rgb(0, 92, 173);
+  border-radius: 7%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 3% 2%;
+}
+.card1 {
+  margin-left: 25%;
+  margin-bottom: 10%;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+input[type="file"] {
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+  left: 8px;
+  font-size: 17px;
+  color: #b8b8b8;
+}
+.button-wrap {
+  position: relative;
+}
+.button {
+  display: inline-block;
+  padding: 12px 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #00538a;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.button:hover {
+background: rgb(119, 154, 184)
+}
+            
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+ }
+
+
+div.form{
+  width: 400px;
+  border: 3px solid rgb(255, 255, 255);
+  margin-left: 25%;
+  margin-bottom: 10%;
+}
